@@ -37,7 +37,7 @@ class App extends Component{
         <SearchBox searchChange={this.onSearchChange}/>
         <ErrorBoundry>
           <CardList robots={filteredRobots}/>
-        </ErrorBoundry>
+        < /ErrorBoundry>
        </div>
       );
     }
